@@ -76,6 +76,7 @@ body {
     border: none;
     box-sizing: border-box;
     color: #E5E7EB;
+    cursor: pointer;
 }
 
 /* RANDOM INFORMATION SECTION */
@@ -128,6 +129,9 @@ body {
     justify-content: end;
 }
 
+
+/* Call to Action Section */
+
 .action-border {
     padding: 100px;
 }
@@ -157,6 +161,20 @@ body {
     border-radius: 4px;
     padding: 4px 40px;
     color:#E5E7EB;
+    cursor: pointer;
+}
+
+
+/* Footer Section */
+
+.footer-border {
+    background-color: #1F2937;
+}
+
+.footer-content {
+    padding: 30px;
+    text-align: center;
+    color: #E5E7EB;
 }
 
 ul {
