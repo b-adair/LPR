@@ -2,29 +2,26 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    font-family: "Roboto"
-}
-
-.header-top {
-    padding: 4px 100px;
+    font-family: "Roboto", sans-serif; 
 }
 
 .header {
     display: flex;
     flex-direction: column;
-    background: #1F2937
+    background: #1F2937;
+    padding: 4px 100px;
 }
 
-.header-top {
+.header-top, .header-bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 90px;
+    margin-bottom: 90px; 
 }
 
 .h-logo {
     font-size: 24px;
-    color: #F9FAF8
+    color: #F9FAF8;
 }
 
 .h-links {
@@ -32,10 +29,47 @@ body {
     gap: 16px;
     font-size: 18px;
     color: #E5E7EB;
+    filter: contrast(80%);
+}
+
+.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.left-header-bottom {
+    display: flex;
+    flex-direction: column; 
+    flex: 1;
+    margin-right: 30px;
+    gap: 10px;
+}
+
+.right-header-bottom {
+    flex: 1;
+}
+
+.sub-main-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    filter: contrast(80%);
+}
+
+img {
+    width: 100%;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    border-radius: 4px;
+    padding: 6px 28px;
+    border: none;
+    box-sizing: border-box;
 }
 
 ul {
-    list-style-type: none;
+    list-style: none;
     margin: 0;
     padding: 0;
 }
