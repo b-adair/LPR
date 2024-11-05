@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: "Roboto"
+}
+
+.header-top {
+    padding: 4px 100px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background: #1F2937
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.h-logo {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.h-links {
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
