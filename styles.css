@@ -5,6 +5,11 @@ body {
     font-family: "Roboto", sans-serif; 
 }
 
+
+
+
+/* HEADER SECTION */
+
 .header {
     display: flex;
     flex-direction: column;
@@ -27,12 +32,12 @@ body {
     gap: 50px;
 }
 
-.h-logo {
+.h-logo, .action-title{
     font-size: 24px;
     color: #F9FAF8;
 }
 
-.h-links, .sub-main-text {
+.h-links, .sub-main-text, .action-subtext {
     font-size: 18px;
     color: #E5E7EB;
     filter: contrast(80%);
@@ -73,13 +78,15 @@ body {
     color: #E5E7EB;
 }
 
+/* RANDOM INFORMATION SECTION */
+
 .r-info {
     text-align: center;
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin-left: 150px;
-    margin-right: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
     margin-bottom: 90px;
 }
 
@@ -96,8 +103,10 @@ body {
     border-radius: 10px;
 }
 
+/* QUOTE SECTION */
+
 .quote-border {
-    padding: 70px 150px;
+    padding: 70px 200px;
 }
 
 .quote-container {
@@ -117,6 +126,37 @@ body {
     display: flex;
     font-weight: bold;
     justify-content: end;
+}
+
+.action-border {
+    padding: 100px;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 30px 100px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.action-container-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-container-right {
+    margin-left: 80px;
+}
+
+.action-sign-up {
+    background-color: #3882F6;
+    border-color: #E5E7EB;
+    border-style: solid;
+    border-radius: 4px;
+    padding: 4px 40px;
+    color:#E5E7EB;
 }
 
 ul {
