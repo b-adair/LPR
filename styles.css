@@ -80,6 +80,7 @@ body {
     gap: 30px;
     margin-left: 150px;
     margin-right: 150px;
+    margin-bottom: 90px;
 }
 
 .r-info-title {
@@ -90,9 +91,32 @@ body {
     text-align: center;
 }
 
-
 .r-info-content img {
     width: 100%;
+    border-radius: 10px;
+}
+
+.quote-border {
+    padding: 70px 150px;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #E5E7EB
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-person {
+    display: flex;
+    font-weight: bold;
+    justify-content: end;
 }
 
 ul {
